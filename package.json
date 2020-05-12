@@ -1,0 +1,28 @@
+{
+  "name": "webpack-test",
+  "version": "1.0.0",
+  "description": "learning how to webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "author": "petr mitin",
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "4.43.0",
+    "webpack-cli": "3.3.11",
+    "express": "4.17.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "sqlite3": "4.2.0",
+    "path": "^0.12.7",
+    "body-parser": "1.19.0",
+    "cors": "2.8.5"
+  },
+  "devDependencies": {
+    "morgan": "1.10.0",
+    "errorhandler": "1.5.1"
+  }
+}
